@@ -1,0 +1,823 @@
+/*
+	» Wagner Lima | www.wagnerlima.net | @wagnerlimaNET «
+	Professor de desenvolvimento web e design na escola iwtraining, especialista em mecanismos de 
+    buscas (SEO) e graduando em Sistemas e Mídias Digitais na Universidade Federal do Ceará (UFC).
+*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Sans', sans-serif;
+    }
+
+/* início da paleta de cores da bienal ####################################################################### */
+    .docedecaju {
+        color: #792951;
+        }
+
+        .bgdocedecaju {
+            background: #792951;
+            }
+
+            .bgtextdocedecaju {
+                background: url(../images/padronagens/bg-padronagens.png) #792951 repeat center center;
+                }
+
+    .ceudomeiodia {
+        color: #4EDFFF;
+        }
+
+        .bgceudomeiodia {
+            background: #4EDFFF;
+            }
+
+            .bgtextceudomeiodia {
+                background: url(../images/padronagens/bg-padronagens.png) #4EDFFF repeat center center;
+                }
+
+    .bemverdim {
+        color: #A7D837;
+        }
+
+        .bgbemverdim {
+            background: #A7D837;
+            }
+
+            .bgtextbemverdim {
+                background: url(../images/padronagens/bg-padronagens.png) #A7D837 repeat center center;
+                }
+
+    .quintura {
+        color: #FF5226;
+        }
+
+        .bgquintura {
+            background: #FF5226;
+            }
+
+            .bgtextquintura {
+                background: url(../images/padronagens/bg-padronagens.png) #FF5226 repeat center center;
+                }
+
+    .claridade {
+        color: #FD9822;
+        } 
+        
+        .bgclaridade {
+            background: #FD9822;
+            }
+
+            .bgtextclaridade {
+                background: url(../images/padronagens/bg-padronagens.png) #FD9822 repeat center center;
+                }
+
+    .duna {
+        color: #F3AF92;
+        } 
+        
+        .bgduna {
+            background: #F3AF92;
+            }
+
+            .bgtextduna {
+                background: url(../images/padronagens/bg-padronagens.png) #F3AF92 repeat center center;
+                }
+
+    .meidarua {
+        color: #493D3D;
+        } 
+        
+        .bgmeidarua {
+            background: #493D3D;
+            }
+
+            .bgtextmeidarua {
+                background: url(../images/padronagens/bg-padronagens.png) #493D3D repeat center center;
+                }
+
+    .molimpeza {
+        color: #fff;
+        } 
+        
+        .bgmolimpeza {
+            background: #fff;
+            }
+
+            .bgtextmolimpeza {
+                background: url(../images/padronagens/bg-padronagens.png) #fff repeat center center;
+                }
+/* fim da paleta de cores da bienal ############################################################################### */
+
+/* início do header no computador ################################################################################# */
+    header {
+        height: 650px;
+        position: relative;
+        }
+
+    .paginasinternas {
+        padding-bottom: 20px;
+        height: auto;
+        position: relative;
+        }
+
+        #carnauba {
+            width: 333px;
+            height: 396px;
+            position: absolute;
+            z-index: 2;
+            top: 330px;
+            right: 0px;
+            }
+
+        .padronagem01 {
+            height: 19px;
+            background: url(../images/padronagens/padronagem-01-bienaldolivro.png) repeat-x;
+            }
+
+        nav ul li {
+            display: inline;
+            margin: 5px 10px;
+            width: auto;
+            float: left;
+            text-align: center;
+            }
+
+            nav a {
+                padding: 5px 10px;
+                text-decoration: none;
+                font-weight: normal;
+                color: #fff;
+                background: none;
+                }
+
+                nav a:hover {
+                    padding: 5px 10px;
+                    font-weight: normal;
+                    color:#fff;
+                    background: #792951;
+                    border-radius: 5px 0px 5px 0px;
+                    }
+
+            .redes-sociais {
+                padding: 10px 0px 0px 0px;
+                border-left: solid 1px #fff;
+                font-size: 28px;
+                }
+
+                .redes-sociais .icone {
+                    margin:4px 0px;
+                    }
+
+        h2 {
+            font-size: 19px;
+            font-style: italic;
+            line-height: 28px;
+            }
+
+            #marcador {
+                width: 10px;
+                }
+
+        .maeliteratura {
+            margin: -75px 0px 0px 0px;
+            height: 700px;
+            background: url(../images/ilustracoes/mae-literatura-bienaldolivro.png) top center no-repeat;
+            background-size: cover;
+            z-index: 2;
+            }
+/* fim do header no computador ####################################################################################### */
+
+/* início da programação no computador ############################################################################### */
+    #programacao {
+        height: auto;
+        padding-bottom: 100px;
+        }
+
+        .titulocompleto {
+            margin: 18px 0px 0px 0px;
+            padding: 0px;
+            width: 100%;
+            height: 70px;
+            z-index: 5;
+            position: relative;
+            background: url(../images/padronagens/bg-titulo.png) center center no-repeat;
+            background-size: contain;
+            }
+
+            .titulo-centro {
+                margin: 0px;
+                padding: 20px 15px;
+                width: 100%;
+                height: 70px;
+                font-size: 34px;
+                font-weight: 900;
+                font-style: normal;
+                }
+                
+            .titulodanoticia {
+                margin: 0px;
+                padding: 20px 0px 0px 0px;
+                width: 100%;
+                height: auto;
+                font-size: 28px;
+                font-weight: 600;
+                font-style: normal;
+                
+                }
+
+            .left {
+                text-align: left;
+                justify-items: center;
+                }
+
+            .center {
+                text-align: center;
+                justify-items: center;
+                }
+
+            .right {
+                text-align: right;
+                justify-items: center;
+                }
+
+        .padronagem02 {
+            width: 100%;
+            height: 60px;
+            background: url(../images/padronagens/padronagem-02-bienaldolivro.png) repeat-x;
+            }
+
+        .bgprogUm {
+            background: url(../images/grafismos/aratue-cavalo-marinho-bg.png) right center no-repeat #fff;
+            }
+
+        .bgprogDois {
+            background: url(../images/grafismos/cemimotara-bg.png) right center no-repeat #fff;
+            }
+
+        .bgprogTres {
+            background: url(../images/grafismos/iasi-lua-bg.png) right center no-repeat #fff;
+            }
+
+        .bgprogQuatro {
+            background: url(../images/grafismos/inha-agua-corrente-bg.png) right center no-repeat #fff;
+            }
+
+        .bgprogCinco {
+            background: url(../images/grafismos/jabuti-bg.png) right center no-repeat #fff;
+            }
+
+        .bgprogSeis {
+            background: url(../images/grafismos/kapana-borboleta-da-mata-bg.png) right center no-repeat #fff;
+            }
+
+        .bgprogSete {
+            background: url(../images/grafismos/uapiku-picapau-bg.png) right center no-repeat #fff;
+            }
+
+        .bgprogOito {
+            background: url(../images/grafismos/upunema-peneira-bg.png) right center no-repeat #fff;
+            }
+
+        .bgprogNove {
+            background: url(../images/grafismos/yandu-aranha-bg.png) right center no-repeat #fff;
+            }
+
+        .bgprogDez {
+            background: url(../images/grafismos/iurukua-tartaruga-bg.png) right center no-repeat #fff;
+            }
+
+    /* início da sanfona (programação) no computador #################################################################### */
+    .bgacordeon {
+        margin: 10px 0px;
+        }
+
+    .post-programacao .marcador {
+        float: left;
+        margin: 5px 10px 0px 20px;
+        }
+
+    .post-programacao h3 {
+        font-size: 26px;
+        }
+
+    .post-programacao p {
+        margin-left: 40px;
+        font-size: 14px;
+        line-height: 24px;
+        }
+
+    #paginainterna .post-programacao {
+        padding: 10px;
+        }
+
+        .categoria-noticias {
+            padding-top: 12px;
+            background: none;
+            }
+
+            .categoria-noticias:hover {
+                padding-top: 12px;
+                background:#49443d29;
+                border-radius: 5px;
+                }
+
+        #paginainterna .post-programacao:hover {
+            background:#493d3d29;
+            }
+
+    #paginainterna .nav-tabs .nav-item.show .nav-link, 
+    #paginainterna .nav-tabs .nav-link.active {
+        color: var(--bs-nav-tabs-link-active-color);
+        background-color: var(--bs-nav-tabs-link-active-bg);
+        border-color:  var(--bs-nav-tabs-link-active-border-color);
+        }
+
+        .nav-tabs {
+            --bs-nav-tabs-border-width: 1px;
+            --bs-nav-tabs-border-color: #792951;
+            --bs-nav-tabs-border-radius: 0.375rem;
+            --bs-nav-tabs-link-hover-border-color: #792951 #792951 #792951;
+            --bs-nav-tabs-link-active-color: #fff;
+            --bs-nav-tabs-link-active-bg: #792951;
+            --bs-nav-tabs-link-active-border-color: #792951 #792951 #792951;
+            }
+
+        .nav-link {
+            --bs-nav-link-color: #792951;
+            }
+
+            .nav-link:hover {
+                color:#792951;
+                background: #fff;
+                }
+    /* fim da sanfona (programação) no computador ###################################################################### */
+/* fim da programação no computador #################################################################################### */
+
+/* início das notícias no computador ################################################################################### */
+    #noticias {
+        height: auto;
+        padding-bottom: 100px;
+        position: relative;
+        }
+
+        #noticias .noticia a {
+            text-decoration: none;
+            }
+
+            #noticias .noticia a:hover {
+                text-decoration: none;
+                opacity: 0.9;
+                }
+
+        #tejo {
+            width: 280px;
+            height: 377px;
+            position: absolute;
+            z-index: 2;
+            top: -200px;
+            left: 50px;
+            }
+
+    #noticias .titulocompleto {
+        margin-left: 30px;
+        }
+
+    .card-title {
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 28px;
+        }
+
+    .card-text {
+        font-size: 12px;
+        line-height: 22px;
+        }
+
+    .datadocard {
+        font-size: 12px;
+        }
+
+    .btnnoticia:hover {
+        background: #FF5226;
+        color: #fff;
+        }
+    .paginainterna-noticias .card, .paginainterna-noticias .list-group-item {
+        border: none;
+        background: none;
+        }
+
+        .paginainterna-noticias .list-group-item {
+            border-top:1px solid #ccc;
+            margin-bottom: 15px;
+            }
+
+    .capadanoticia img {
+        object-fit: cover;
+        height:400px;
+        object-position:10%;
+        }
+/* fim das notícias no computador ###################################################################################### */
+
+/* início dos convidados no computador ################################################################################# */
+#convidados {
+    height: auto;
+    position: relative;
+    }
+
+    #carangueijo {
+        width: 280px;
+        height: 377px;
+        position: absolute;
+        z-index: 2;
+        top: -200px;
+        right: 250px;
+        }
+
+    .cardconvidado a:hover {
+        opacity: 0.9;
+        }
+
+    .carousel-control-next {
+        left: 950px !important;
+        opacity: 1.0;
+        }
+
+    .carousel-control-prev {
+        left: -50px !important;
+        opacity: 1.0;
+        }
+
+    .carousel-indicators {
+        bottom: -50px !important;
+        opacity: 1.0;
+        }
+
+        .carousel-indicators .active {
+            background-color: #792951;
+            }
+
+    #convidados button {
+        margin-left: 6px;
+        opacity: 1.0;
+        }
+
+    .carousel-control-next {
+        left: 1155px !important;
+        opacity: 1.0;
+        }
+
+    .carousel-control-prev {
+        left: -65px !important;
+        opacity: 1.0;
+        }
+
+/* início das páginas internas ########################################################################################### */
+    .padronagem05 {
+        height: 60px;
+        background: url(../images/padronagens/padronagem-05-bienaldolivro.png) repeat-x;
+        }
+
+    .paginacao {
+        text-align: center;
+        }
+
+    a {
+        text-decoration: none;
+        }
+/* início das páginas internas ########################################################################################### */
+    
+/* fim dos convidados no computador ###################################################################################### */
+
+/* início do rodapé no computador ######################################################################################## */
+.padronagem03 {
+    width: 100%;
+    height: 60px;
+    background: url(../images/padronagens/padronagem-03-bienaldolivro.png) repeat-x;
+    }
+
+    #dragao-do-mar, #secult-ceara-cultura, #ceara-governo-d-estado {
+        height: 75px;
+        }
+
+    #rodape a:hover {
+        opacity: 0.8;
+        }
+
+    #rodape h2 {
+        margin-top: 15x;
+        }
+
+    #rodape h3 {
+        margin-top: -5px;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: italic;
+        letter-spacing: 4px;
+        }
+
+    #rodape hr {
+        margin-top: 0px;
+        border: 2px solid #fff;
+        }
+
+    .divisoriavertical {
+        margin-top: 90px;
+        border-left: 1px solid #fff;
+        height: 80px;
+        }
+
+    .divisoriahorizontalum {
+        margin-bottom: 50px;
+        border-top: 2px dotted #fff;
+        }
+
+    .divisoriahorizontaldois {
+        margin: 50px 0px;
+        border-bottom: 2px dotted #fff;
+        }
+
+    .padronagem04 {
+        width: 100%;
+        height: 19px;
+        background: url(../images/padronagens/padronagem-04-bienaldolivro.png) repeat-x;
+        }
+/* fim do rodapé no computador ######################################################################################### */
+
+@media only screen and (max-width: 500px) {
+
+/* início do header no celular ######################################################################################### */
+    .redes-sociais {
+        margin-top: 10px;
+        padding: 10px 0px 0px 0px;
+        border-top: solid 1px #fff;
+        border-left: none;
+        font-size: 28px;
+        }
+
+    #carnauba {
+        width: 70px;
+        height: 90px;
+        position: absolute;
+        z-index: 2;
+        top: 510px;
+        right: 80px;
+        }
+
+        #carnauba img {
+            width: 150px;
+            height: 170px;
+            }
+
+    .sumirnocelular {
+        visibility: hidden;
+        height: 1px;
+        }
+    
+    .acimadetudo {
+        z-index: 10;
+        position: relative;
+        }
+
+    .titulo-centro {
+        font-size: 24px;
+        }
+
+    .maeliteratura {
+        margin: -75px 0px 0px 0px;
+        height: 700px;
+        background: url(../images/ilustracoes/mae-literatura-bienaldolivro-com-frase.png) top center no-repeat;
+        background-size:contain;
+        z-index: 2;
+        }
+/* fim do header no celular  ############################################################################################ */
+
+/* início da sanfona (programação) no celular ########################################################################### */
+    .accordion {
+        z-index: 10;
+        position: relative;
+        }
+
+    .bgacordeon {
+        margin: 5px 0px;
+        }
+
+    .post-programacao .marcador {
+        float: left;
+        margin: 5px 10px 0px 5px;
+        }
+
+    .post-programacao h3 {
+        font-size: 16px;
+        font-weight: bold;
+        }
+
+    .post-programacao p {
+        margin-left: 20px;
+        font-size: 14px;
+        line-height: 24px;
+        }
+
+    .grafismos {
+        visibility: hidden;
+        height: 1px;
+        }
+
+        .bgmeidaruaDiaUm {
+            background: url(../images/grafismos/aratue-cavalo-marinho.png) #493D3D center center no-repeat;
+            background-size: cover;
+            }
+        
+        .bgmeidaruaDiaDois {
+            background: url(../images/grafismos/cemimotara.png) #493D3D center center no-repeat;
+            background-size: cover;
+            }
+
+        .bgmeidaruaDiaTres {
+            background: url(../images/grafismos/iasi-lua.png) #493D3D center center no-repeat;
+            background-size: cover;
+            }
+
+        .bgmeidaruaDiaQuatro {
+            background: url(../images/grafismos/inha-agua-corrente.png) #493D3D center center no-repeat;
+            background-size: cover;
+            }
+        
+        .bgmeidaruaDiaCinco {
+            background: url(../images/grafismos/jabuti.png) #493D3D center center no-repeat;
+            background-size: cover;
+            }
+
+        .bgmeidaruaDiaSeis {
+            background: url(../images/grafismos/kapana-borboleta-da-mata.png) #493D3D center center no-repeat;
+            background-size: cover;
+            }
+
+        .bgmeidaruaDiaSete {
+            background: url(../images/grafismos/uapiku-picapau.png) #493D3D center center no-repeat;
+            background-size: cover;
+            }
+        
+        .bgmeidaruaDiaOito {
+            background: url(../images/grafismos/upunema-peneira.png) #493D3D center center no-repeat;
+            background-size: cover;
+            }
+
+        .bgmeidaruaDiaNove {
+            background: url(../images/grafismos/yandu-aranha.png) #493D3D center center no-repeat;
+            background-size: cover;
+            }
+        
+        .bgmeidaruaDiaDez {
+            background: url(../images/grafismos/iurukua-tartaruga.png) #493D3D center center no-repeat;
+            background-size: cover;
+            }
+/* fim da sanfona (programação) no celular ############################################################################## */
+
+/* início das notícias no celular ####################################################################################### */
+
+    #tejo {
+        width: 186px;
+        height: 250px;
+        position: absolute;
+        z-index: 2;
+        top: -75px;
+        left: 90px;
+        }
+
+        #tejo img {
+            width: 186px;
+            height: 250px;
+            }
+
+    #noticias .titulocompleto {
+        margin-top: 60px;
+        }
+
+    #carangueijo {
+        width: 223px;
+        height: 300px;
+        top: -110px;
+        right: 100px;
+        }
+
+        #carangueijo img {
+            width: 223px;
+            height: 300px;
+            }
+
+/* fim das notícias no celular ######################################################################################### */
+
+/* início dos convidados no celular #################################################################################### */
+    .cardsdosconvidados {
+        margin-left: 5px;
+        }
+
+    .carousel-control-next {
+        left: 285px !important;
+        top: 10px;
+        opacity: 1.0;
+        }
+
+    .carousel-control-prev {
+        left: 35px !important;
+        top: 10px;
+        opacity: 1.0;
+        }
+/* fim dos convidados no celular ####################################################################################### */
+
+/* início do rodape no celular ######################################################################################### */
+    .logosocentro {
+        text-align: center !important;
+        justify-items: center !important;
+        }
+/* fim do rodape no celular ############################################################################################ */
+    }
+
+@media only screen and (min-width: 501px) and (max-width: 1360px) {
+/* início do header no notebook ######################################################################################## */
+    #carnauba {
+        right: 0px;
+        }
+/* fim do header no notebook ######################################################################################## */
+
+/* início da sanfona (programação) no notebook ########################################################################## */
+    .titulocompleto {
+        margin-top: -1px;
+        font-size: 20px;
+        }
+
+        .titulocompleto .titulo-centro {
+            font-size: 26px;
+            }
+
+    .post-programacao .marcador {
+        float: left;
+        margin: 0px 10px 0px 5px;
+        }
+
+    .post-programacao h3 {
+        font-size: 20px;
+        font-weight: bold;
+        }
+
+    .post-programacao p {
+        margin-left: 20px;
+        font-size: 12px;
+        line-height: 24px;
+        }
+/* fim da sanfona (programação) no notebook  ########################################################################### */
+
+/* início das notícias no notebook ##################################################################################### */
+    #noticias .titulocompleto {
+        margin-left: 0px;
+        }
+
+    #tejo {
+        width: 289px;
+        height: 390px;
+        top: -200px;
+        left: -10px;
+        }
+
+        #tejo img {
+            width: 289px;
+            height: 390px;
+            }
+
+    #carangueijo {
+        right: 150px;
+        }      
+/* fim das notícias no notebook ######################################################################################## */
+
+/* início dos convidados no notebook ################################################################################### */
+    #convidados .titulocompleto {
+        margin-left: -35px;
+        }
+
+    .carousel-control-next {
+        left: 970px !important;
+        top: 20px;
+        opacity: 1.0;
+        }
+
+    .carousel-control-prev {
+        left: -30px !important;
+        top: 20px;
+        opacity: 1.0;
+        }
+/* fim dos convidados no notebook ###################################################################################### */
+    }
+
+#topodosite {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    text-align: right;
+    z-index:10;
+    }
+
+    #topodosite img {
+        width: 50px;
+        opacity: 0.5;
+        }
